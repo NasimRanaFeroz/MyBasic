@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\NasimC#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82EA9609-BB75-4F76-B2F3-433B5C311FCA}|NasimC#\\NasimC#.csproj|d:\\c#\\nasimc#\\nasimc#\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82EA9609-BB75-4F76-B2F3-433B5C311FCA}|NasimC#\\NasimC#.csproj|solutionrelative:nasimc#\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EA9609-BB75-4F76-B2F3-433B5C311FCA}|NasimC#\\NasimC#.csproj|d:\\c#\\nasimc#\\nasimc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82EA9609-BB75-4F76-B2F3-433B5C311FCA}|NasimC#\\NasimC#.csproj|solutionrelative:nasimc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\C#\\NasimC#\\NasimC#\\Book.cs",
+              "RelativeDocumentMoniker": "NasimC#\\Book.cs",
+              "ToolTip": "D:\\C#\\NasimC#\\NasimC#\\Book.cs",
+              "RelativeToolTip": "NasimC#\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T14:28:57.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\NasimC#\\NasimC#\\Program.cs",
+              "RelativeDocumentMoniker": "NasimC#\\Program.cs",
+              "ToolTip": "D:\\C#\\NasimC#\\NasimC#\\Program.cs",
+              "RelativeToolTip": "NasimC#\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T13:20:47.657Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
