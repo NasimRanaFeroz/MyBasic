@@ -1,20 +1,25 @@
 const express = require("express");
-const app = express();
-const connectDB = require('./db');
+const dotenv = require('dotenv');
+const connectDB = require("./config/db");
+const userRoutes = require("./routes/userRoutes");
 
-const port = 3000;
+dotenv.config();
+
+const app = express();
+const port = process.env.PORT || 3000;
+
 app.use(express.json());
 
 connectDB();
 
-const item = require("./routes/item");
-app.use("/item", item);
-
 const authMiddleware = function (req, res, next) {
-  console.log("auth middleware done");
+  console.log("auth middleware triggered");
   next();
 };
 app.use(authMiddleware);
+
+
+app.use("/api", userRoutes);
 
 app.get("/name", (req, res) => {
   res.sendFile("./name.html", { root: __dirname });
