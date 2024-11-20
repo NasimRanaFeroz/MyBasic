@@ -1,7 +1,11 @@
 const express = require("express");
 const app = express();
+const connectDB = require('./db');
+
 const port = 3000;
 app.use(express.json());
+
+connectDB();
 
 const item = require("./routes/item");
 app.use("/item", item);
